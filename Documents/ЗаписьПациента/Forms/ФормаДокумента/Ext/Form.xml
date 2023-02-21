@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="19">
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="20"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="21">
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="22"/>
+			<ChildItems>
+				<UsualGroup name="Группа3" id="23">
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="24"/>
+					<ChildItems>
+						<InputField name="ДатаПриема" id="10">
+							<DataPath>Объект.ДатаПриема</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДатаПриемаКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="ДатаПриемаРасширеннаяПодсказка" id="12"/>
+						</InputField>
+						<InputField name="ВремяПриема" id="13">
+							<DataPath>Объект.ВремяПриема</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ВремяПриемаКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ВремяПриемаРасширеннаяПодсказка" id="15"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ФИО" id="7">
+			<DataPath>Объект.ФИО</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ФИОКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ФИОРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ПринимающийСтоматолог" id="70">
+			<DataPath>Объект.ПринимающийСтоматолог</DataPath>
+			<ContextMenu name="ПринимающийСтоматологКонтекстноеМеню" id="71"/>
+			<ExtendedTooltip name="ПринимающийСтоматологРасширеннаяПодсказка" id="72"/>
+		</InputField>
+		<UsualGroup name="Группа4" id="28">
+			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="29"/>
+			<ChildItems>
+				<InputField name="Комментарий" id="25">
+					<DataPath>Объект.Комментарий</DataPath>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="27"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="НужныеУслуги" id="30">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.НужныеУслуги</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="НужныеУслугиКонтекстноеМеню" id="31"/>
+			<AutoCommandBar name="НужныеУслугиКоманднаяПанель" id="32"/>
+			<ExtendedTooltip name="НужныеУслугиРасширеннаяПодсказка" id="33"/>
+			<SearchStringAddition name="НужныеУслугиСтрокаПоиска" id="34">
+				<AdditionSource>
+					<Item>НужныеУслуги</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НужныеУслугиСтрокаПоискаКонтекстноеМеню" id="35"/>
+				<ExtendedTooltip name="НужныеУслугиСтрокаПоискаРасширеннаяПодсказка" id="36"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="НужныеУслугиСостояниеПросмотра" id="37">
+				<AdditionSource>
+					<Item>НужныеУслуги</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НужныеУслугиСостояниеПросмотраКонтекстноеМеню" id="38"/>
+				<ExtendedTooltip name="НужныеУслугиСостояниеПросмотраРасширеннаяПодсказка" id="39"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="НужныеУслугиУправлениеПоиском" id="40">
+				<AdditionSource>
+					<Item>НужныеУслуги</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="НужныеУслугиУправлениеПоискомКонтекстноеМеню" id="41"/>
+				<ExtendedTooltip name="НужныеУслугиУправлениеПоискомРасширеннаяПодсказка" id="42"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnChange">НужныеУслугиПриИзменении</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="НужныеУслугиНомерСтроки" id="43">
+					<DataPath>Объект.НужныеУслуги.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НужныеУслугиНомерСтрокиКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="НужныеУслугиНомерСтрокиРасширеннаяПодсказка" id="45"/>
+				</LabelField>
+				<InputField name="НужныеУслугиНужнаяУслуга" id="49">
+					<DataPath>Объект.НужныеУслуги.НужнаяУслуга</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Нужная услуга</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НужныеУслугиНужнаяУслугаКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="НужныеУслугиНужнаяУслугаРасширеннаяПодсказка" id="51"/>
+					<Events>
+						<Event name="OnChange">НужныеУслугиНужнаяУслугаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="НужныеУслугиЦена1" id="61">
+					<DataPath>Объект.НужныеУслуги.Цена1</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НужныеУслугиЦена1КонтекстноеМеню" id="62"/>
+					<ExtendedTooltip name="НужныеУслугиЦена1РасширеннаяПодсказка" id="63"/>
+				</InputField>
+				<InputField name="НужныеУслугиДополнительнаяУслуга" id="52">
+					<DataPath>Объект.НужныеУслуги.ДополнительнаяУслуга</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НужныеУслугиДополнительнаяУслугаКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="НужныеУслугиДополнительнаяУслугаРасширеннаяПодсказка" id="54"/>
+					<Events>
+						<Event name="OnChange">НужныеУслугиДополнительнаяУслугаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="НужныеУслугиЦена2" id="64">
+					<DataPath>Объект.НужныеУслуги.Цена2</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НужныеУслугиЦена2КонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="НужныеУслугиЦена2РасширеннаяПодсказка" id="66"/>
+				</InputField>
+				<InputField name="НужныеУслугиДополнительнаяУслуга2" id="55">
+					<DataPath>Объект.НужныеУслуги.ДополнительнаяУслуга2</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НужныеУслугиДополнительнаяУслуга2КонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="НужныеУслугиДополнительнаяУслуга2РасширеннаяПодсказка" id="57"/>
+					<Events>
+						<Event name="OnChange">НужныеУслугиДополнительнаяУслуга2ПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="НужныеУслугиЦена3" id="67">
+					<DataPath>Объект.НужныеУслуги.Цена3</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НужныеУслугиЦена3КонтекстноеМеню" id="68"/>
+					<ExtendedTooltip name="НужныеУслугиЦена3РасширеннаяПодсказка" id="69"/>
+				</InputField>
+				<InputField name="НужныеУслугиСуммаКОплате" id="58">
+					<DataPath>Объект.НужныеУслуги.СуммаКОплате</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НужныеУслугиСуммаКОплатеКонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="НужныеУслугиСуммаКОплатеРасширеннаяПодсказка" id="60"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ЗаписьПациента</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

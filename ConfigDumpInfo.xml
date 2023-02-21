@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.15">
+	<ConfigVersions>
+		<Metadata name="Catalog.Контрагенты" id="9a59b0b9-de9b-4ffa-ac23-634d1c70163f" configVersion="92af6cb708890848b86a42bf397e378300000000">
+			<Metadata name="Catalog.Контрагенты.Attribute.ВидКонтрагента" id="15b4e1d2-d7c5-4557-a758-8d4f7998f04a"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ИНН" id="3578d727-e385-468d-9543-e643a70955f8"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.КПП" id="37f2f325-e9b7-4d38-8fca-93465e717494"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ОГРН" id="45089031-05e1-442b-b492-0e68a4104dd1"/>
+		</Metadata>
+		<Metadata name="Catalog.Контрагенты.Form.ФормаСписка" id="b741375d-d6be-460f-a104-6bcd3d121edc" configVersion="af657c6a8d56464494a093935aab59b600000000"/>
+		<Metadata name="Catalog.Контрагенты.Form.ФормаСписка.Form" id="b741375d-d6be-460f-a104-6bcd3d121edc.0" configVersion="5a4c2d420c3458458abb47421568c53e00000000"/>
+		<Metadata name="Catalog.Контрагенты.Form.ФормаСписка.Help" id="b741375d-d6be-460f-a104-6bcd3d121edc.1" configVersion="22d21ef0b1763047832dacee43019cac00000000"/>
+		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента" id="797c79dc-40ec-454f-bb4b-e8106894bb67" configVersion="bc5287ea23bdf842a35885d6d99b788900000000"/>
+		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента.Form" id="797c79dc-40ec-454f-bb4b-e8106894bb67.0" configVersion="9a1916473e6166409da524b85b02bc8d00000000"/>
+		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента.Help" id="797c79dc-40ec-454f-bb4b-e8106894bb67.1" configVersion="899cd92a8cc2be489440d610bd4bc5ca00000000"/>
+		<Metadata name="Catalog.Контрагенты.Help" id="9a59b0b9-de9b-4ffa-ac23-634d1c70163f.1" configVersion="20a495424f0b0340b9c2730772bd475f00000000"/>
+		<Metadata name="Catalog.Контрагенты.ManagerModule" id="9a59b0b9-de9b-4ffa-ac23-634d1c70163f.3" configVersion="55bc35f1358e984f8592b280d8d3d9b500000000"/>
+		<Metadata name="Catalog.Контрагенты.ObjectModule" id="9a59b0b9-de9b-4ffa-ac23-634d1c70163f.0" configVersion="0af4793a9e06594eac2265008f81326c00000000"/>
+		<Metadata name="Catalog.Контрагенты.Predefined" id="9a59b0b9-de9b-4ffa-ac23-634d1c70163f.1c" configVersion="f21ef06d1b802e4a99d57751cef1c5fd00000000"/>
+		<Metadata name="Catalog.Номенклатура" id="9676c4be-7faf-4fef-80c8-6d396f963dd8" configVersion="20ed0da18072e24fa386864fb126674500000000">
+			<Metadata name="Catalog.Номенклатура.Attribute.ВидНоменклатуры" id="86784928-5b63-4607-82e7-70c799192680"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.Услуга" id="cc636713-df33-4f6a-8df7-b3e3f4282fbf"/>
+		</Metadata>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента" id="636c2bc5-ec5d-431c-9dff-ab003bf008b2" configVersion="5cdfbbe4e2e77843903b43c8c4bcb5c500000000"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента.Form" id="636c2bc5-ec5d-431c-9dff-ab003bf008b2.0" configVersion="3f62130153e4764890190aca7c1cb79900000000"/>
+		<Metadata name="Catalog.Номенклатура.ObjectModule" id="9676c4be-7faf-4fef-80c8-6d396f963dd8.0" configVersion="1c23d3246dbd38409ddfa946964810df00000000"/>
+		<Metadata name="Catalog.ОборудованиеИИнструменты" id="0937d880-0b46-4a3d-aca6-2cf1794e00cb" configVersion="f629af6a6b4e7143991769ebb403300100000000">
+			<Metadata name="Catalog.ОборудованиеИИнструменты.Attribute.Картинка" id="bae9714a-5a64-4fc7-b41b-2da9f486e2ae"/>
+			<Metadata name="Catalog.ОборудованиеИИнструменты.Attribute.Количество" id="eb478bdc-3faa-472b-9a74-ed631a7bd430"/>
+		</Metadata>
+		<Metadata name="Catalog.ОборудованиеИИнструменты.Form.ФормаЭлемента" id="ffe2fed1-9aad-4856-b748-96d82dffe145" configVersion="70dc7a6e024cce4781b69d64c9ecb5c300000000"/>
+		<Metadata name="Catalog.ОборудованиеИИнструменты.Form.ФормаЭлемента.Form" id="ffe2fed1-9aad-4856-b748-96d82dffe145.0" configVersion="daf6f03f21be4f4a8f23611a1b2da96d00000000"/>
+		<Metadata name="Catalog.ОборудованиеИИнструменты.Form.ФормаЭлемента.Help" id="ffe2fed1-9aad-4856-b748-96d82dffe145.1" configVersion="ac9ebe9e86b728429696ae55532039e300000000"/>
+		<Metadata name="Catalog.ОборудованиеИИнструменты.Help" id="0937d880-0b46-4a3d-aca6-2cf1794e00cb.1" configVersion="1905d9c7d62be54caefd5a089fb7bb8e00000000"/>
+		<Metadata name="Catalog.ОборудованиеИИнструменты.ManagerModule" id="0937d880-0b46-4a3d-aca6-2cf1794e00cb.3" configVersion="53bc0d2cce4a464696d9cb6a6ed46a8e00000000"/>
+		<Metadata name="Catalog.ОборудованиеИИнструменты.ObjectModule" id="0937d880-0b46-4a3d-aca6-2cf1794e00cb.0" configVersion="f4e0f7f1268f8a4a9d037d8a000d010400000000"/>
+		<Metadata name="Catalog.ОборудованиеИИнструменты.Predefined" id="0937d880-0b46-4a3d-aca6-2cf1794e00cb.1c" configVersion="9967e302dacded4ab43bd8fe2fda78ec00000000"/>
+		<Metadata name="Catalog.Пациенты" id="ccd87672-29c7-4254-b62c-7c797893f2b6" configVersion="b4c0a42377dbd84cbf9fe437036be4b500000000">
+			<Metadata name="Catalog.Пациенты.Attribute.ФИО" id="15cb3e11-131d-436d-a685-d0b5e6ff1a09"/>
+			<Metadata name="Catalog.Пациенты.Attribute.ДатаРождения" id="24f31cce-322b-466b-a0c8-6dbabaa14947"/>
+			<Metadata name="Catalog.Пациенты.Attribute.КемВыдан" id="2dd5baa4-540b-4387-8b6c-0e93bf00afe5"/>
+			<Metadata name="Catalog.Пациенты.Attribute.ПостоянныйКлиент" id="97bbba72-f34c-408b-8b35-3867cb6fbc0b"/>
+			<Metadata name="Catalog.Пациенты.Attribute.НомерМедицинскогоПолюса" id="98cf1aed-2024-4c75-b812-8a3149d08793"/>
+			<Metadata name="Catalog.Пациенты.Attribute.ДатаПоследнегоПриема" id="c6ae53b5-8cbd-4fe9-94b8-88296733dff6"/>
+			<Metadata name="Catalog.Пациенты.Attribute.ДатаПервогоПриема" id="d1220693-1e63-4991-aeba-26da8f84e371"/>
+			<Metadata name="Catalog.Пациенты.Attribute.СерияНомерПаспорта" id="ddd2d0e5-97b5-4fd0-87dc-578835aafe72"/>
+			<Metadata name="Catalog.Пациенты.Attribute.ДатаВыдачи" id="e956cd61-4778-46ad-803b-2ee0902c8611"/>
+		</Metadata>
+		<Metadata name="Catalog.Пациенты.Form.ФормаВыбора" id="7d1eb2d3-9377-4e1d-9bb8-a7071914f349" configVersion="cc26950a9eb6014dbc05d5d77eac3dc800000000"/>
+		<Metadata name="Catalog.Пациенты.Form.ФормаВыбора.Form" id="7d1eb2d3-9377-4e1d-9bb8-a7071914f349.0" configVersion="faa7f239dce3484ea0a021996383b52100000000"/>
+		<Metadata name="Catalog.Пациенты.Form.ФормаЭлемента" id="86e248d3-5a37-4c69-86ff-dec209972ee6" configVersion="8e069d969c7d364798a1070e41f42df900000000"/>
+		<Metadata name="Catalog.Пациенты.Form.ФормаЭлемента.Form" id="86e248d3-5a37-4c69-86ff-dec209972ee6.0" configVersion="877ddf74359b814a8a2080a29a8c2b1800000000"/>
+		<Metadata name="Catalog.Сотрудники" id="223cd03b-3477-4667-9916-40e897996946" configVersion="5399a6bf5a70ae4291f6203c9012fc2d00000000">
+			<Metadata name="Catalog.Сотрудники.Attribute.Премия" id="026e41c3-69e3-4373-bd20-cd6416fbb810"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Телефон" id="0e98e31d-0582-40e3-b552-7938027ed54f"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Должность" id="338371d8-7adf-4538-9862-a10398c0524c"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Пол" id="545f7e43-6a3c-4827-b2e2-f6db81b9e237"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Адрес" id="65871433-8413-4605-83f5-f55186986d3d"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Оклад" id="90e1f189-9865-4178-a8fa-f415a55e2b97"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.СерияНомерПаспорта" id="ba2e074c-b5ff-425d-a28c-6d5a06b6d35d"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.ДатаРождения" id="d7084e1a-bddc-4b05-85e5-eba8ca10581e"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Стаж" id="e88ea988-c4c5-4403-8d70-ffe289c9b0d2"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.ВидПремии" id="e8fdad6c-1b20-45e3-baf0-35bc73580b45"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Картинка" id="ef1542d0-a9df-40b6-81ec-a084513b8eda"/>
+		</Metadata>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаВыбора" id="40c48c13-3ef0-44b4-be98-5615bee79390" configVersion="f3720fa927f7cb47bf2b8cc4d1fef2e600000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаВыбора.Form" id="40c48c13-3ef0-44b4-be98-5615bee79390.0" configVersion="4f1b16621d3554418e4283c13cf99fd300000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаВыбора.Help" id="40c48c13-3ef0-44b4-be98-5615bee79390.1" configVersion="a22425e1abc4004bbc53a95f208c3b7c00000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаСписка" id="b113a5f8-23e4-4e3d-8916-c5ed2b146a3e" configVersion="35eecfa442700e46ad949b063193da1900000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаСписка.Form" id="b113a5f8-23e4-4e3d-8916-c5ed2b146a3e.0" configVersion="33858959adb60948845e66f4d7a7d05900000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаСписка.Help" id="b113a5f8-23e4-4e3d-8916-c5ed2b146a3e.1" configVersion="aa1269bffaabd44d9ea4b98b9e86cab500000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента" id="dad80ed4-df26-4e2e-af1d-f98067ff7a8d" configVersion="204c4392afd49e439e3d409bc9e0555900000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента.Form" id="dad80ed4-df26-4e2e-af1d-f98067ff7a8d.0" configVersion="416a53ba04c7ec4bbfb8957b1748b51600000000"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента.Help" id="dad80ed4-df26-4e2e-af1d-f98067ff7a8d.1" configVersion="65ee0ff125a1a24ea8fe988ac7af5afa00000000"/>
+		<Metadata name="Catalog.Сотрудники.Help" id="223cd03b-3477-4667-9916-40e897996946.1" configVersion="ba1eb3007b279e4da10a11f0297b27d300000000"/>
+		<Metadata name="Catalog.Сотрудники.ManagerModule" id="223cd03b-3477-4667-9916-40e897996946.3" configVersion="0b4af99276a1b0418b9b1d642062bf6d00000000"/>
+		<Metadata name="Catalog.Сотрудники.ObjectModule" id="223cd03b-3477-4667-9916-40e897996946.0" configVersion="ba499d0e139525479d12c9c2017e849b00000000"/>
+		<Metadata name="Catalog.Сотрудники.Predefined" id="223cd03b-3477-4667-9916-40e897996946.1c" configVersion="eed723ae7ce16244acf636ddac51194500000000"/>
+		<Metadata name="Catalog.УслугиВзрослаяСтоматология" id="ec0b86d9-2250-43cf-9a30-8b9543813fad" configVersion="e1e16da47899e64882256a4dc02c53ed00000000">
+			<Metadata name="Catalog.УслугиВзрослаяСтоматология.Attribute.ЦенаУслуги" id="55770b83-2746-4b58-b5bf-80080c3182e2"/>
+		</Metadata>
+		<Metadata name="Catalog.УслугиВзрослаяСтоматология.Form.ФормаЭлемента" id="ba5b4ce9-66e7-4b84-a990-22593bc885c3" configVersion="154e4474dc5843419bc3d80f23a737e200000000"/>
+		<Metadata name="Catalog.УслугиВзрослаяСтоматология.Form.ФормаЭлемента.Form" id="ba5b4ce9-66e7-4b84-a990-22593bc885c3.0" configVersion="3041bde1e548c04ea1dd5f0271bf124a00000000"/>
+		<Metadata name="Catalog.УслугиВзрослаяСтоматология.Form.ФормаЭлемента.Help" id="ba5b4ce9-66e7-4b84-a990-22593bc885c3.1" configVersion="50a5c679253b0549b93e31b59c66f7cb00000000"/>
+		<Metadata name="Catalog.УслугиВзрослаяСтоматология.Help" id="ec0b86d9-2250-43cf-9a30-8b9543813fad.1" configVersion="fafe17f385afb24d81b8932f2715fa1300000000"/>
+		<Metadata name="Catalog.УслугиВзрослаяСтоматология.ManagerModule" id="ec0b86d9-2250-43cf-9a30-8b9543813fad.3" configVersion="57ebf457f12fab48b7b8c27425f9e73900000000"/>
+		<Metadata name="Catalog.УслугиВзрослаяСтоматология.ObjectModule" id="ec0b86d9-2250-43cf-9a30-8b9543813fad.0" configVersion="4ca098d023b5f544b97c5334a2e47e3400000000"/>
+		<Metadata name="Catalog.УслугиВзрослаяСтоматология.Predefined" id="ec0b86d9-2250-43cf-9a30-8b9543813fad.1c" configVersion="167e16a969a2b948ade63b52c931d8f800000000"/>
+		<Metadata name="Catalog.УслугиДетскаяСтоматология" id="2dc619d2-06d7-4d84-bdb1-51e2d17b4bde" configVersion="15b9727d439f3641bbfa4a6ee674e16e00000000">
+			<Metadata name="Catalog.УслугиДетскаяСтоматология.Attribute.ЦенаУслуги" id="6e346d79-02d2-4e94-8d0b-a33df01e4bde"/>
+		</Metadata>
+		<Metadata name="Catalog.УслугиДетскаяСтоматология.Form.ФормаЭлемента" id="35fb3613-e6bb-4878-9c2d-b88f73deec6c" configVersion="a7412f2712697a41a133ad4904374b0200000000"/>
+		<Metadata name="Catalog.УслугиДетскаяСтоматология.Form.ФормаЭлемента.Form" id="35fb3613-e6bb-4878-9c2d-b88f73deec6c.0" configVersion="d51f00193789924eb33dce829a2da9af00000000"/>
+		<Metadata name="Catalog.УслугиДетскаяСтоматология.Form.ФормаЭлемента.Help" id="35fb3613-e6bb-4878-9c2d-b88f73deec6c.1" configVersion="b55636248509a64dadb32e1ba66b228000000000"/>
+		<Metadata name="Catalog.УслугиДетскаяСтоматология.Help" id="2dc619d2-06d7-4d84-bdb1-51e2d17b4bde.1" configVersion="9227383516afcc46b43514c05f8133e700000000"/>
+		<Metadata name="Catalog.УслугиДетскаяСтоматология.ManagerModule" id="2dc619d2-06d7-4d84-bdb1-51e2d17b4bde.3" configVersion="30c2e6be62896f4b8a7c08137f41f63c00000000"/>
+		<Metadata name="Catalog.УслугиДетскаяСтоматология.ObjectModule" id="2dc619d2-06d7-4d84-bdb1-51e2d17b4bde.0" configVersion="4cc7a28b1defb647abf56fc424c088e000000000"/>
+		<Metadata name="Catalog.УслугиДетскаяСтоматология.Predefined" id="2dc619d2-06d7-4d84-bdb1-51e2d17b4bde.1c" configVersion="dd64770714e280429782c2eb2a96400500000000"/>
+		<Metadata name="CommonForm.Жемчуг" id="fa259aaf-c54e-4714-bb90-39cf84a0f3af" configVersion="183e0060846e614eb3b23e0cd028724500000000"/>
+		<Metadata name="CommonForm.Жемчуг.Form" id="fa259aaf-c54e-4714-bb90-39cf84a0f3af.0" configVersion="b26c50b733bef847814b7ab48d9954e200000000"/>
+		<Metadata name="CommonForm.Планировщик" id="9da6a3da-963b-47eb-801e-f1f85e007308" configVersion="110096be90bfaf4ea0a687d45110400c00000000"/>
+		<Metadata name="CommonForm.Планировщик.Form" id="9da6a3da-963b-47eb-801e-f1f85e007308.0" configVersion="7ecd16464e2d0540bfcf9f6110c600ce00000000"/>
+		<Metadata name="CommonForm.Планировщик.Help" id="9da6a3da-963b-47eb-801e-f1f85e007308.1" configVersion="7ba22e664614e94683863846fd70526d00000000"/>
+		<Metadata name="CommonModule.РаботаСоСправочниками" id="33ff70fd-1ba9-4ffe-8586-679cd752a04e" configVersion="fa60b522cd57c7428f83edec04cdc42d00000000"/>
+		<Metadata name="CommonModule.РаботаСоСправочниками.Module" id="33ff70fd-1ba9-4ffe-8586-679cd752a04e.0" configVersion="5bbd9f2b8fac974c86c457a21ef8898b00000000"/>
+		<Metadata name="CommonModule.РаботаСоСправочниками1" id="d39c676a-4bb2-4568-8111-84e5757d5026" configVersion="29ccc556576c2646b51405395de8fb7800000000"/>
+		<Metadata name="CommonModule.РаботаСоСправочниками1.Module" id="d39c676a-4bb2-4568-8111-84e5757d5026.0" configVersion="1e2487c7f44bd94d9652cd51aa9f064000000000"/>
+		<Metadata name="CommonPicture.Бухгалтерия" id="411eec1e-af45-45ca-99de-64abadd3d022" configVersion="9245ecca27dd534c9279bbcbba5750b800000000"/>
+		<Metadata name="CommonPicture.Бухгалтерия.Picture" id="411eec1e-af45-45ca-99de-64abadd3d022.0" configVersion="440e30b545b90e4094436a8cb52477f200000000"/>
+		<Metadata name="CommonPicture.Логотип" id="a96a7edc-e6d4-4496-8083-f55a260d5c1c" configVersion="e5688a96ecaade46ae37110a76931dd400000000"/>
+		<Metadata name="CommonPicture.Логотип.Picture" id="a96a7edc-e6d4-4496-8083-f55a260d5c1c.0" configVersion="53a536d48d9c7441bb2a24e534b49c1300000000"/>
+		<Metadata name="CommonPicture.Пациенты" id="8977490a-3aeb-45ef-acf7-9f5310008d54" configVersion="8ddf5347e889a340b19b78f3f39d749500000000"/>
+		<Metadata name="CommonPicture.Пациенты.Picture" id="8977490a-3aeb-45ef-acf7-9f5310008d54.0" configVersion="669eb47ff02c2344b87791c0766c317200000000"/>
+		<Metadata name="CommonPicture.Склад" id="1b51fb71-50d9-44b4-81db-29429def4157" configVersion="50ba8b187314764eaf8407b0c6963cf600000000"/>
+		<Metadata name="CommonPicture.Склад.Picture" id="1b51fb71-50d9-44b4-81db-29429def4157.0" configVersion="03e7d1d684401344af23a6b9ef3cba4900000000"/>
+		<Metadata name="CommonPicture.Сотрудники" id="c0952d75-fd86-46e9-a58d-ef35228fb4ac" configVersion="a3b4370a2311414699fff5d335a0535700000000"/>
+		<Metadata name="CommonPicture.Сотрудники.Picture" id="c0952d75-fd86-46e9-a58d-ef35228fb4ac.0" configVersion="79efb76310b2bf469900d096055aec0200000000"/>
+		<Metadata name="CommonPicture.Услуги" id="d44931ac-a9c4-4b17-ac5c-4d5562a11253" configVersion="0506ba371beff14e933bbce9eed2920600000000"/>
+		<Metadata name="CommonPicture.Услуги.Picture" id="d44931ac-a9c4-4b17-ac5c-4d5562a11253.0" configVersion="2a600285f0bd2a44a8433e4a2b44898300000000"/>
+		<Metadata name="Configuration.Стоматология" id="6da99c1e-a216-4946-9f8f-78655a73b2bf" configVersion="135ba9b2a9f8fb4883a23e53e77fd04200000000"/>
+		<Metadata name="Configuration.Стоматология.ClientApplicationInterface" id="fb2e7a04-205f-4817-a7a1-e39533287b6c.b" configVersion="338fe7bf3a016d4d89e46522629b587900000000"/>
+		<Metadata name="Configuration.Стоматология.HomePageWorkArea" id="fb2e7a04-205f-4817-a7a1-e39533287b6c.8" configVersion="d9ba3f5f3ca3cf4c874fbe64c309eed000000000"/>
+		<Metadata name="Configuration.Стоматология.Logo" id="fb2e7a04-205f-4817-a7a1-e39533287b6c.1" configVersion="9f30873f257bce449af12358c66af2b800000000"/>
+		<Metadata name="Document.ЗаписьПациента" id="1746eea5-8e33-477f-9902-2e2bab8263b1" configVersion="fd3bc313f7d6a447bebd2b66e9668a8e00000000">
+			<Metadata name="Document.ЗаписьПациента.Attribute.Комментарий" id="149abf05-4d3f-49f5-8202-cbd2515e686e"/>
+			<Metadata name="Document.ЗаписьПациента.Attribute.НужнаяУслуга" id="14fdf75f-e40c-47d6-9f53-db3c4b23e22f"/>
+			<Metadata name="Document.ЗаписьПациента.TabularSection.НужныеУслуги.Attribute.Цена1" id="23767754-8291-4cd4-82ca-89f5a50c4bc6"/>
+			<Metadata name="Document.ЗаписьПациента.TabularSection.НужныеУслуги.Attribute.Цена2" id="28e506c8-24df-4bf2-bea6-9d8435147402"/>
+			<Metadata name="Document.ЗаписьПациента.TabularSection.НужныеУслуги.Attribute.ДополнительнаяУслуга" id="4df19aea-640b-404a-b116-1d6bc0f24d3e"/>
+			<Metadata name="Document.ЗаписьПациента.TabularSection.НужныеУслуги.Attribute.НужнаяУслуга" id="69fb86da-1b62-4b4a-9e45-5d5bc383049b"/>
+			<Metadata name="Document.ЗаписьПациента.Command.Чек" id="72bf4661-d9d0-47b4-bed6-46b76abe1573"/>
+			<Metadata name="Document.ЗаписьПациента.Attribute.ПринимающийСтоматолог" id="927a07d1-a339-4fcb-a6cb-cf339ac0f188"/>
+			<Metadata name="Document.ЗаписьПациента.Attribute.ВремяПриема" id="9b5f8cee-1ca4-425a-9abe-80fe52b4f360"/>
+			<Metadata name="Document.ЗаписьПациента.TabularSection.НужныеУслуги.Attribute.ФИО" id="9f083711-77ce-47c9-b5ec-d929815c3800"/>
+			<Metadata name="Document.ЗаписьПациента.Attribute.ДатаПриема" id="d5b9ad68-ca8c-4ca2-a14b-3d06557bd855"/>
+			<Metadata name="Document.ЗаписьПациента.TabularSection.НужныеУслуги.Attribute.Цена3" id="e6e43053-aaf0-45d5-9a37-91e7c4d1a4ed"/>
+			<Metadata name="Document.ЗаписьПациента.TabularSection.НужныеУслуги.Attribute.ДополнительнаяУслуга2" id="eaeded4b-effa-45c1-97d4-782e2944f9b8"/>
+			<Metadata name="Document.ЗаписьПациента.Attribute.ФИО" id="ed9c068a-54af-4f82-bb49-1b5a164aaef6"/>
+			<Metadata name="Document.ЗаписьПациента.TabularSection.НужныеУслуги" id="fe3f9c43-c141-4696-bd12-bb21c5cb612a"/>
+			<Metadata name="Document.ЗаписьПациента.TabularSection.НужныеУслуги.Attribute.СуммаКОплате" id="ffeef6dd-75d1-4501-be90-1cbe068afd7c"/>
+		</Metadata>
+		<Metadata name="Document.ЗаписьПациента.Command.Чек.CommandModule" id="72bf4661-d9d0-47b4-bed6-46b76abe1573.2" configVersion="56610546d2e68144bf860b320c9f936200000000"/>
+		<Metadata name="Document.ЗаписьПациента.Form.ФормаДокумента" id="f34fb87f-fb4a-41ec-bc9e-be76685fb61e" configVersion="93b5324b666da243ba5b004eab477a6b00000000"/>
+		<Metadata name="Document.ЗаписьПациента.Form.ФормаДокумента.Form" id="f34fb87f-fb4a-41ec-bc9e-be76685fb61e.0" configVersion="62799447a91f8745bde5872d208baf0900000000"/>
+		<Metadata name="Document.ЗаписьПациента.Form.ФормаСписка" id="0c81c9b4-9a74-43f2-a958-8cae8551a16a" configVersion="bfe6a2c5cb97fd4d91edecef93203db700000000"/>
+		<Metadata name="Document.ЗаписьПациента.Form.ФормаСписка.Form" id="0c81c9b4-9a74-43f2-a958-8cae8551a16a.0" configVersion="08f65eae80ddfe4bae77ce2901e7c21200000000"/>
+		<Metadata name="Document.ЗаписьПациента.ManagerModule" id="1746eea5-8e33-477f-9902-2e2bab8263b1.2" configVersion="9f17ad26a22cf94e92c4b2900b241fab00000000"/>
+		<Metadata name="Document.ЗаписьПациента.ObjectModule" id="1746eea5-8e33-477f-9902-2e2bab8263b1.0" configVersion="4f83eed713477448856ebd910447ebe300000000"/>
+		<Metadata name="Document.ЗаписьПациента.Template.Макет" id="86b7372b-458a-4a6b-b653-c5209b16d50c" configVersion="b7fc9b87b5bd204e9264b2f53219427d00000000"/>
+		<Metadata name="Document.ЗаписьПациента.Template.Чек" id="f212de65-851e-407e-b730-b140c1fed472" configVersion="ad9cc3be4a0e3b4ebfdf0722ed4a9e3d00000000"/>
+		<Metadata name="Document.ЗаписьПациента.Template.Чек.Template" id="f212de65-851e-407e-b730-b140c1fed472.0" configVersion="8c1235f82043fb4c9c583de9f85ac9cd00000000"/>
+		<Metadata name="Document.Карточка" id="80ad8ac1-7051-4b96-9d00-78e2cbff6892" configVersion="1523f90efffc4b409373234a9fd6dbc400000000">
+			<Metadata name="Document.Карточка.Attribute.ЖалобыПациента" id="1926bd0a-3f9b-42ff-823c-bf39ecd9ba1f"/>
+			<Metadata name="Document.Карточка.TabularSection.ОказанныеУслуги.Attribute.Цена" id="1f9f7da4-7901-4366-8506-bbfbc11815ba"/>
+			<Metadata name="Document.Карточка.TabularSection.ОказанныеУслуги.Attribute.Услуга" id="4a1d42b2-00e8-4bd0-a28d-4dde254ebc39"/>
+			<Metadata name="Document.Карточка.Attribute.ФИО" id="6bbe3fb2-5b7e-49eb-9cd5-2ba8611654db"/>
+			<Metadata name="Document.Карточка.Attribute.ДатаРождения" id="7f590d50-9288-4069-9bb8-269ae3454fc9"/>
+			<Metadata name="Document.Карточка.Attribute.НомерКарточки" id="807b2480-6b6f-467a-967f-d02cc485406e"/>
+			<Metadata name="Document.Карточка.Attribute.НомерТелефона" id="8282a1ab-7311-4266-97c6-b1faf7374b3f"/>
+			<Metadata name="Document.Карточка.Attribute.Адрес" id="8a765979-d8be-477e-ae65-4c41e0df102b"/>
+			<Metadata name="Document.Карточка.Attribute.Email" id="a690eceb-73cf-4a79-a253-c55fd0ad4a63"/>
+			<Metadata name="Document.Карточка.Command.Печать" id="ab7e3709-0091-45da-ac12-454998f97c6d"/>
+			<Metadata name="Document.Карточка.TabularSection.ОказанныеУслуги" id="cc74caf2-a4ba-4ee8-b77d-b2615bb022f3"/>
+		</Metadata>
+		<Metadata name="Document.Карточка.Command.Печать.CommandModule" id="ab7e3709-0091-45da-ac12-454998f97c6d.2" configVersion="129decc3079f65478ecadb800a374e8800000000"/>
+		<Metadata name="Document.Карточка.Form.ФормаДокумента" id="d24a6746-a1df-4ddf-b0f0-1590ae78e051" configVersion="62797b5fd0506f46a68fbc5aff16c1b600000000"/>
+		<Metadata name="Document.Карточка.Form.ФормаДокумента.Form" id="d24a6746-a1df-4ddf-b0f0-1590ae78e051.0" configVersion="76ad302f659c17499add9fd2832d291600000000"/>
+		<Metadata name="Document.Карточка.ManagerModule" id="80ad8ac1-7051-4b96-9d00-78e2cbff6892.2" configVersion="89c11d0ce402254898f00975545862d300000000"/>
+		<Metadata name="Document.Карточка.Template.Карточка" id="59781441-7bbe-476c-928c-2086f44412b2" configVersion="3f5e45a203c9d94ab68bcccada4a71e900000000"/>
+		<Metadata name="Document.Карточка.Template.Карточка.Template" id="59781441-7bbe-476c-928c-2086f44412b2.0" configVersion="c2c64ed4fb62ad43bbe984b58502228900000000"/>
+		<Metadata name="Document.Талончик" id="279ec45e-dda1-48a5-8e19-8ea0c3c9c665" configVersion="9a79d9badfd8754e9d341ca448e8651c00000000">
+			<Metadata name="Document.Талончик.TabularSection.ДатаИВремя.Attribute.Дата" id="259b8904-a4b8-4814-a776-ed68498644e8"/>
+			<Metadata name="Document.Талончик.Attribute.НомерТалона" id="347b27b1-4c72-41dd-a9d0-a90b011add90"/>
+			<Metadata name="Document.Талончик.Attribute.Стоматолог" id="462b89a6-d6ca-4b33-b3f2-a8a542b1dbcd"/>
+			<Metadata name="Document.Талончик.TabularSection.ДатаИВремя" id="572a18fa-f56b-4d65-8214-c51337a7f85d"/>
+			<Metadata name="Document.Талончик.Command.Печать" id="659014b6-44ce-4dcd-9b83-c893953fbb00"/>
+			<Metadata name="Document.Талончик.Attribute.ФИОПациента" id="95780f74-810c-48c2-aa9a-aeed6ad2261f"/>
+			<Metadata name="Document.Талончик.Attribute.НомерКабинета" id="ea6f3848-6803-45f0-a7c2-6c1a30478021"/>
+			<Metadata name="Document.Талончик.TabularSection.ДатаИВремя.Attribute.Время" id="f1441107-af3f-4c2d-a57b-91cc5725d04f"/>
+		</Metadata>
+		<Metadata name="Document.Талончик.Command.Печать.CommandModule" id="659014b6-44ce-4dcd-9b83-c893953fbb00.2" configVersion="1af4d58c682f184fb588bb6029ee26cd00000000"/>
+		<Metadata name="Document.Талончик.Form.ФормаДокумента" id="15b72cb9-aa33-427d-b55e-d9be88dd3213" configVersion="d86a74900d38fc4e86161dc12cff96e000000000"/>
+		<Metadata name="Document.Талончик.Form.ФормаДокумента.Form" id="15b72cb9-aa33-427d-b55e-d9be88dd3213.0" configVersion="da0962f167ae5749bd607c2fd9a5436400000000"/>
+		<Metadata name="Document.Талончик.ManagerModule" id="279ec45e-dda1-48a5-8e19-8ea0c3c9c665.2" configVersion="a2ec880cd6069b4a8beb11089a5593bb00000000"/>
+		<Metadata name="Document.Талончик.Template.Печать1" id="47998443-0157-487a-b42f-7f640170a4f1" configVersion="a9de01e5fa8b5946bf7a10ac248ab7b200000000"/>
+		<Metadata name="Document.Талончик.Template.Печать1.Template" id="47998443-0157-487a-b42f-7f640170a4f1.0" configVersion="d6b8f276bda6554e8600305d9df0e59900000000"/>
+		<Metadata name="Enum.ВидыКонтрагентов" id="cbebb077-57b1-4864-b3b7-153683f21c88" configVersion="396606ae1867a84fbbbdfedd513780ff00000000">
+			<Metadata name="Enum.ВидыКонтрагентов.EnumValue.ФизическоеЛицо" id="85bacf3a-2d32-4e05-b786-891ffa7c5e65"/>
+			<Metadata name="Enum.ВидыКонтрагентов.EnumValue.ЮридическоеЛицо" id="8971c493-9410-4491-9b7b-181195ef30f1"/>
+			<Metadata name="Enum.ВидыКонтрагентов.EnumValue.ОбособленноеПодразделение" id="e55da8d6-7618-45f0-b320-984e10f22724"/>
+		</Metadata>
+		<Metadata name="Enum.ВидыКонтрагентов.ManagerModule" id="cbebb077-57b1-4864-b3b7-153683f21c88.0" configVersion="054b3c0f7910c349801b046eba693b2f00000000"/>
+		<Metadata name="Enum.ВидыНоменклатуры" id="329c855c-fac0-480e-87cb-a79862c563c1" configVersion="ea1c9db095811c41b217b2f0dca41c6100000000">
+			<Metadata name="Enum.ВидыНоменклатуры.EnumValue.ДетскаяСтоматология" id="a581245c-6b1b-4f53-ab46-f2c82243e487"/>
+			<Metadata name="Enum.ВидыНоменклатуры.EnumValue.ВзрослаяСтоматология" id="bf02abde-c27c-4c0e-ab84-2ed6903cf6cd"/>
+		</Metadata>
+		<Metadata name="Enum.Должности" id="a17695b9-58b4-4f73-af95-85f92e5fdc95" configVersion="2d3fd5fef6e31f409c05f1a99dde6cdf00000000">
+			<Metadata name="Enum.Должности.EnumValue.РаботикРегистратуры" id="3f9e1567-0c6a-4344-b0d2-9ca5359e517d"/>
+			<Metadata name="Enum.Должности.EnumValue.СтоматологХирург" id="5fc8cb10-ed6b-43c9-ad95-10a10ff2ec42"/>
+			<Metadata name="Enum.Должности.EnumValue.СтоматологТерапевт" id="6cea20e3-6a72-4db2-bfff-d2f2bcf0bfe1"/>
+			<Metadata name="Enum.Должности.EnumValue.ВрачРентгенолог" id="7d0d049b-fa1e-471c-bd32-4b5b966030a2"/>
+			<Metadata name="Enum.Должности.EnumValue.ИсполнительныйДиректор" id="aba23f4a-323c-4b09-9b38-4cc7d698934c"/>
+			<Metadata name="Enum.Должности.EnumValue.Уборщица" id="ad3a6c28-12c3-4ff1-885b-d15e2b33ac07"/>
+			<Metadata name="Enum.Должности.EnumValue.ЗаместительГлавногоВрача" id="af61dbe3-16d6-4a68-8e4a-56612cd0c303"/>
+			<Metadata name="Enum.Должности.EnumValue.ГлавныйВрач" id="c1be5c7e-b35b-4119-9e1d-0c9d83e57e14"/>
+			<Metadata name="Enum.Должности.EnumValue.СтоматологОртодонт" id="e6d42b08-9bcb-4685-9b22-aa83f7706b0f"/>
+			<Metadata name="Enum.Должности.EnumValue.СтоматологПародонтолог" id="f8822418-98f1-49b0-b028-aaefcf0ae015"/>
+			<Metadata name="Enum.Должности.EnumValue.СтоматологОртопед" id="ffa0a900-9b44-477a-9878-8a2100685519"/>
+		</Metadata>
+		<Metadata name="Enum.НомераКабинетов" id="5fefaf4d-8f28-448f-872e-9cb78d23b9dc" configVersion="35177f4c26ae12469ac9d99dc425ece900000000">
+			<Metadata name="Enum.НомераКабинетов.EnumValue.КабинетТри" id="0db087b1-8916-4e17-951e-d3de43f619e4"/>
+			<Metadata name="Enum.НомераКабинетов.EnumValue.Кабинетпять" id="51a2c187-ee0b-41b3-af53-d229d0e1983a"/>
+			<Metadata name="Enum.НомераКабинетов.EnumValue.КабинетОдин" id="55b2c6a4-045f-44cb-9cdb-1f3fc911bb2d"/>
+			<Metadata name="Enum.НомераКабинетов.EnumValue.КабинетЧетыре" id="698f1eec-f4ff-423c-a043-bd10249d786f"/>
+			<Metadata name="Enum.НомераКабинетов.EnumValue.КабинетДва" id="d8669990-f9ec-430b-8637-fc29d81d44e4"/>
+		</Metadata>
+		<Metadata name="Enum.Пол" id="e8490f20-1fb3-448f-839f-e3a3954ddcb8" configVersion="16ca8f3c88720846be6d47b6a2cfa76300000000">
+			<Metadata name="Enum.Пол.EnumValue.Женский" id="0ba69bf7-f096-461e-b475-1088af83b324"/>
+			<Metadata name="Enum.Пол.EnumValue.Мужской" id="a94575ba-f106-4730-99dc-bb427140134d"/>
+		</Metadata>
+		<Metadata name="Enum.ПостоянныйКлиент" id="40ad50c8-d950-4b02-a395-5efaa4ae8011" configVersion="585b8da2e4206241b16481b7dac1ce4a00000000">
+			<Metadata name="Enum.ПостоянныйКлиент.EnumValue.Нет" id="1ff6e55a-a784-4ea3-bc91-99ea05b7fa13"/>
+			<Metadata name="Enum.ПостоянныйКлиент.EnumValue.Да" id="4a70de19-9cbe-4359-9c98-bf37e95806e9"/>
+		</Metadata>
+		<Metadata name="Enum.ПостоянныйКлиент.Form.ФормаСписка" id="7667ea8a-b90d-4257-b2a0-9e370fbe0400" configVersion="a3fc042c3b81a143afcb1e9b6ed288c000000000"/>
+		<Metadata name="Enum.ПостоянныйКлиент.Form.ФормаСписка.Form" id="7667ea8a-b90d-4257-b2a0-9e370fbe0400.0" configVersion="de428b0afcf9994fb8ea0ff86b03531200000000"/>
+		<Metadata name="Enum.Премия" id="d4a5018d-ba11-453b-a0b2-cbb58af71a02" configVersion="82eaf7095b83a04796abdb292a1b03f100000000">
+			<Metadata name="Enum.Премия.EnumValue.Пациенты2" id="53c05697-e5af-4830-8afe-64b4769d4998"/>
+			<Metadata name="Enum.Премия.EnumValue.Пациенты3" id="8e182607-6c5f-4103-98ec-c72a1fedaf40"/>
+			<Metadata name="Enum.Премия.EnumValue.Пациенты1" id="b742f225-6cb8-492c-b52c-c7eb8e5d8057"/>
+		</Metadata>
+		<Metadata name="Enum.Сотрудники" id="bfc0f66d-4869-4753-85eb-e392a38883e5" configVersion="8596fa94b169c94d8b09d849ec5213ec00000000">
+			<Metadata name="Enum.Сотрудники.EnumValue.СтаматовДенисЕвгеньевич" id="0ebe8570-cf7a-4684-9ddf-9b292748aa27"/>
+			<Metadata name="Enum.Сотрудники.EnumValue.ЗиновьеваИринаВладимировна" id="1293bd51-5c12-46e5-8e82-05dc36c566e8"/>
+			<Metadata name="Enum.Сотрудники.EnumValue.КивишеваКристинаВасильевна" id="32970c14-5dde-4934-9b61-bfb396bab736"/>
+			<Metadata name="Enum.Сотрудники.EnumValue.ШабановЭльдарЖаферович" id="60d502f1-4d0e-4110-97da-f36d939318d6"/>
+			<Metadata name="Enum.Сотрудники.EnumValue.ДилбарянМариамОганесовна" id="c2ee3c22-0d54-4b8c-996c-7667246bb942"/>
+			<Metadata name="Enum.Сотрудники.EnumValue.ЮдинаЕленаАлександровна" id="c446cc6d-c48c-45f3-9313-36aa8e3d9fff"/>
+			<Metadata name="Enum.Сотрудники.EnumValue.МакееваЕкатеринаЮрьевна" id="d0baf047-5621-4bb7-a690-c919c444a6a7"/>
+			<Metadata name="Enum.Сотрудники.EnumValue.МосягинНиколайВасильевич" id="e494353c-6f6d-4e49-a554-8e9383bfff2a"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ВидПремииИПремия" id="347c8816-621a-4507-895b-ba1e0dfcac64" configVersion="4af26ede05476c4aa97091b4d78a58ae00000000">
+			<Metadata name="InformationRegister.ВидПремииИПремия.Resource.Премия" id="5709ec9c-7cff-4708-94e1-d85f8dc9714b"/>
+			<Metadata name="InformationRegister.ВидПремииИПремия.Dimension.ВидПремии" id="f491e931-bc8d-4e90-98a8-10cc7a6dfbb0"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ДолжностьИОклад" id="ab7d0194-9bb9-4f07-bd15-110f30136a3f" configVersion="2c7b8275583150488173ca3a7608017a00000000">
+			<Metadata name="InformationRegister.ДолжностьИОклад.Resource.Оклад" id="01a8aff6-44be-4b5a-9922-c20c90f1cda4"/>
+			<Metadata name="InformationRegister.ДолжностьИОклад.Dimension.Должность" id="216a33bb-0bee-4696-a3c2-7ed09af78f1f"/>
+		</Metadata>
+		<Metadata name="InformationRegister.Планировщик" id="82c64854-ce69-4837-bfe8-e4d8e650ad16" configVersion="2f8940701ec8fa46949f27695b9a112d00000000">
+			<Metadata name="InformationRegister.Планировщик.Dimension.Врач" id="0135d96f-a4d5-4fca-a488-bfb19d50fcab"/>
+			<Metadata name="InformationRegister.Планировщик.Dimension.ДатаВремяС" id="5ce885cf-5877-465a-ad21-d1e5682e6387"/>
+			<Metadata name="InformationRegister.Планировщик.Dimension.ДатаВремяПо" id="7203f349-0525-41ae-90aa-d7e632559eae"/>
+			<Metadata name="InformationRegister.Планировщик.Resource.Прием" id="f1bf9236-75af-475c-ac91-d1cd5ef6f9b3"/>
+		</Metadata>
+		<Metadata name="InformationRegister.Планировщик.Help" id="82c64854-ce69-4837-bfe8-e4d8e650ad16.0" configVersion="658a765e218fff4ba83200b4c0546b4a00000000"/>
+		<Metadata name="InformationRegister.Планировщик.ManagerModule" id="82c64854-ce69-4837-bfe8-e4d8e650ad16.2" configVersion="23cf2693bd49214f98978240573a66c500000000"/>
+		<Metadata name="InformationRegister.Планировщик.RecordSetModule" id="82c64854-ce69-4837-bfe8-e4d8e650ad16.1" configVersion="480f4a80cc2e8b4aaa309b3ae3da7efa00000000"/>
+		<Metadata name="InformationRegister.ЦенаУслуг" id="933dede0-115b-4d0b-b054-b01a98954ed8" configVersion="af18d28004b8f6478f2daa92dada9dd900000000">
+			<Metadata name="InformationRegister.ЦенаУслуг.Dimension.Услуги" id="8fc7a680-1434-422f-b6c4-07e1d103610a"/>
+			<Metadata name="InformationRegister.ЦенаУслуг.Resource.Цена" id="aa9e4bad-3799-460f-bca8-c8cda11db42e"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЦенаУслуг.Form.ФормаЗаписи" id="64ecf591-a713-45a1-94e4-386f5048218c" configVersion="9edb9ec370b9b042b8f36e61e161346200000000"/>
+		<Metadata name="InformationRegister.ЦенаУслуг.Form.ФормаЗаписи.Form" id="64ecf591-a713-45a1-94e4-386f5048218c.0" configVersion="fd2a0af23a68c244a948b232a8057b5900000000"/>
+		<Metadata name="Language.Русский" id="0c39805d-19f1-405a-8c27-ca8a7bc9c51f" configVersion="d532aa013684524ea6d8f30c40a789e500000000"/>
+		<Metadata name="Report.ДолжностиСотрудников" id="53d9702f-4f83-4283-a708-4fd11059462f" configVersion="d4cb461315a5ba42aea36c766f5dd0dc00000000"/>
+		<Metadata name="Report.ДолжностиСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных" id="1457aac9-956f-44b8-b6b6-94154623e0ac" configVersion="5e54590472f53b4cb50c251fe5a6775200000000"/>
+		<Metadata name="Report.ДолжностиСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="1457aac9-956f-44b8-b6b6-94154623e0ac.0" configVersion="19c07b9e146a3a429db0e7c4f2706ac500000000"/>
+		<Metadata name="Report.ДолжностиСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных1" id="04471556-5a07-48a5-a4c7-9eb8c721c752" configVersion="a866ff8ca1c9d24a9cb053c38411837f00000000"/>
+		<Metadata name="Report.ДолжностиСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных1.Template" id="04471556-5a07-48a5-a4c7-9eb8c721c752.0" configVersion="8b02a3d8f81e984cbc493ab97f10590700000000"/>
+		<Metadata name="Report.ДолжностиСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных2" id="8318069c-485c-42a6-bdd5-da41b0f73ec4" configVersion="d4ca72bf6562ab449569f859ea4ba1c600000000"/>
+		<Metadata name="Report.ДолжностиСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных2.Template" id="8318069c-485c-42a6-bdd5-da41b0f73ec4.0" configVersion="1b0d75953ebe32438bf9b004021ce89000000000"/>
+		<Metadata name="Report.КлиентыСтоматологии" id="eae0d5be-d726-4bb1-a97d-5ddff03ec1b0" configVersion="5d7cbf7c0fc4b64e8f540e7c4dbcdce800000000"/>
+		<Metadata name="Report.КлиентыСтоматологии.Template.ОсновнаяСхемаКомпоновкиДанных" id="55712b8f-ff27-4637-bdeb-f78e257a006d" configVersion="79018e2f6cef3f43888954527fdbca7600000000"/>
+		<Metadata name="Report.КлиентыСтоматологии.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="55712b8f-ff27-4637-bdeb-f78e257a006d.0" configVersion="6b5438865d536c4d935ff5fbf23ebaf100000000"/>
+		<Metadata name="Report.ОборудованиеИИнструменты" id="7277174c-e8c0-456d-97e2-f6f76fd309cd" configVersion="9b9da2a748233b45ab1cecf6aee0101f00000000"/>
+		<Metadata name="Report.ОборудованиеИИнструменты.Template.ОсновнаяСхемаКомпоновкиДанных" id="2dbed70a-82a1-4fe1-8611-298da9dcc4b7" configVersion="21055bc225c5bc42a63484d5a59e41d900000000"/>
+		<Metadata name="Report.ОборудованиеИИнструменты.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="2dbed70a-82a1-4fe1-8611-298da9dcc4b7.0" configVersion="856a6fef6a7ede49a6c742a3604ef05900000000"/>
+		<Metadata name="Report.ПрайсЛист" id="239aa3f9-4f06-41bf-9356-eee12f6055d0" configVersion="fb01f906647f8b40a79c6003f730cb5a00000000"/>
+		<Metadata name="Report.ПрайсЛист.Template.ОсновнаяСхемаКомпоновкиДанных" id="9ae861da-4b4a-4d97-98ab-f4c43542ba7a" configVersion="dcc39a8a03717a4289cd7ac8fe57d0d200000000"/>
+		<Metadata name="Report.ПрайсЛист.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="9ae861da-4b4a-4d97-98ab-f4c43542ba7a.0" configVersion="e7d916c216c6874792463d0af5e02ddd00000000"/>
+		<Metadata name="Report.ПрайсЛист2" id="8c35c2b2-7c32-4caa-9cd0-f4cf7f5489e3" configVersion="2f54ed4d05ade04aab0b691f0748061b00000000"/>
+		<Metadata name="Report.ПрайсЛист2.Help" id="8c35c2b2-7c32-4caa-9cd0-f4cf7f5489e3.1" configVersion="28c147fa39b14140816b86812f6f164a00000000"/>
+		<Metadata name="Report.ПрайсЛист2.ManagerModule" id="8c35c2b2-7c32-4caa-9cd0-f4cf7f5489e3.2" configVersion="4341202810854640bf8e80e43c0305b800000000"/>
+		<Metadata name="Report.ПрайсЛист2.ObjectModule" id="8c35c2b2-7c32-4caa-9cd0-f4cf7f5489e3.0" configVersion="a2c2cb9f1bfbf746901bd364b00dfbd800000000"/>
+		<Metadata name="Report.ПрайсЛист2.Template.ОсновнаяСхемаКомпоновкиДанных" id="33f0a990-c2eb-4870-b96e-e5bf8d0a87b8" configVersion="37e6681e1c114e449401b2235b7a085500000000"/>
+		<Metadata name="Report.ПрайсЛист2.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="33f0a990-c2eb-4870-b96e-e5bf8d0a87b8.0" configVersion="d7d5946877d52e4397e35da8e4c8b9c700000000"/>
+		<Metadata name="Report.РассчетЗП" id="9e782954-5438-4166-855c-dc417e9d21cf" configVersion="7c28e0d48d6d7944bbb7332fab5048e600000000"/>
+		<Metadata name="Report.РассчетЗП.Template.ОсновнаяСхемаКомпоновкиДанных" id="66a1e08a-50ce-4081-94fc-40c4b80e78d8" configVersion="1db100453d2d3144a3ddcff740b291ef00000000"/>
+		<Metadata name="Report.РассчетЗП.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="66a1e08a-50ce-4081-94fc-40c4b80e78d8.0" configVersion="feaad45e4594904ab97c1e7472d1272a00000000"/>
+		<Metadata name="Report.РассчетЗП.Template.ОсновнаяСхемаКомпоновкиДанных1" id="d838119d-02c7-4f1c-b9c0-b3cad716bae6" configVersion="2bddbe6cee590b448617bf25ad58936b00000000"/>
+		<Metadata name="Report.РассчетЗП.Template.ОсновнаяСхемаКомпоновкиДанных1.Template" id="d838119d-02c7-4f1c-b9c0-b3cad716bae6.0" configVersion="431ede5c7e4db943b1c229428f3c25c700000000"/>
+		<Metadata name="Role.Администратор" id="6b6a819b-d411-43e1-ae2c-ae7accb0f66a" configVersion="c86e7f6da0ef044dbcb8cdbb9550055500000000"/>
+		<Metadata name="Role.Администратор.Rights" id="6b6a819b-d411-43e1-ae2c-ae7accb0f66a.0" configVersion="0d0b18ae2975a1408d4f27e2fd671b0300000000"/>
+		<Metadata name="Role.Бухгалтер" id="07c69d57-b328-4f4f-84b4-ae91d6becff3" configVersion="20fe6f5c61064543971e1d7ec777668f00000000"/>
+		<Metadata name="Role.Бухгалтер.Rights" id="07c69d57-b328-4f4f-84b4-ae91d6becff3.0" configVersion="f12ad57519ba2d41bb9bab0764f781c800000000"/>
+		<Metadata name="Role.РаботникРегистратуры" id="3cf76adf-7c61-4a07-a92f-cf6b34fe298f" configVersion="4c98ac6df7013d45bda09d9c77cbaf6d00000000"/>
+		<Metadata name="Role.РаботникРегистратуры.Rights" id="3cf76adf-7c61-4a07-a92f-cf6b34fe298f.0" configVersion="e7d15d795b85584d82cbd8964446475000000000"/>
+		<Metadata name="Role.Стоматолог" id="4d41a198-1894-4f32-ad23-94a78f1593a7" configVersion="d700b6a7d39c354581a3b6f42b5be0bd00000000"/>
+		<Metadata name="Role.Стоматолог.Rights" id="4d41a198-1894-4f32-ad23-94a78f1593a7.0" configVersion="5632ab9acdfd2840ac83bfb285abdc8b00000000"/>
+		<Metadata name="Style.Стиль1" id="96222940-4eea-4480-93c4-52e267b08102" configVersion="f2c1716b742e204eb83b888f33bf9a1a00000000"/>
+		<Metadata name="Style.Стиль1.Style" id="96222940-4eea-4480-93c4-52e267b08102.0" configVersion="59462115ee6af64aa8de21169eb27c2b00000000"/>
+		<Metadata name="Subsystem.Бухгалтерия" id="fde7efcc-0236-4f89-8094-36d9138db70e" configVersion="7587d55433c46646a705aa9e84e6532300000000"/>
+		<Metadata name="Subsystem.Пациенты" id="97b3ebf7-258a-4946-bcec-c859fcb44a1b" configVersion="3f7e3ace0aabf1449f5aa50d8e05cf3200000000"/>
+		<Metadata name="Subsystem.Сотрудники" id="1844e57e-3725-475f-bd8e-dae8e02f4c88" configVersion="be1285f826a041469adf8ec17528c98b00000000"/>
+		<Metadata name="Subsystem.Услуги" id="a6cc6381-0dc6-494d-a43c-788afd2dedd2" configVersion="4f8d2e0d1ed8974fb757c9a69bc1a84b00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
